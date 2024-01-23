@@ -1,0 +1,81 @@
+@font-face {
+  font-family: "vazir";
+   src: url("/fonts/Vazir.eot");
+   src: url("/fonts/Vazir.eot?#iefix") format("embedded-opentype"),
+    url("/fonts/Vazir.woff2") format("woff2"),
+    url("/fonts/Vazir.woff") format("woff"),
+    url("/fonts/Vazir.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "roboto";
+  src: url("/fonts/Roboto-Regular.eot");
+  src: url("/fonts/Roboto-Regular.eot?#iefix") format("embedded-opentype"),
+    url("/fonts/Roboto-Regular.woff2") format("woff2"),
+    url("/fonts/Roboto-Regular.woff") format("woff"),
+    url("/fonts/Roboto-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+html{
+    direction: rtl;
+    font-family: vazir;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.div-index-content{
+    width: 100%;
+}
+
+.my-name{
+    background-color: lightpink;
+}
+.div-rabit-content{
+  border: 1px solid gray;
+  display: flex;
+  justify-content:space-around;
+  align-items: center ;
+  flex-direction: column;
+  padding: 2rem;
+  background-color:pink;
+  border-radius: 20px;
+  margin: 1rem;
+}
+.div-rabit-content > img{
+  border-radius: 20px;
+}
+.div-rabit-content > button{
+  background-color: hotpink;
+  padding: 1rem .5rem ;
+  margin: .5rem;
+  border: 1px solid beige;
+  border-radius: 10px;
+  box-shadow: 0px 1px 14px 0px;
+}
+.div-rabit-content > button >a{
+  text-decoration: none;
+  color: black;
+  font-family: vazir;
+}
+table{
+  width: 80%;
+}
+.tabel-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+table,td{
+  border: 1px solid black;
+  border-collapse: collapse;
+  padding: .3rem;
+}
+tr{
+  text-align: center;
+}
